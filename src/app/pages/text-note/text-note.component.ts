@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-text-note',
-  templateUrl: './text-note.component.html',
-  styleUrls: ['./text-note.component.scss']
+    selector: 'app-text-note',
+    templateUrl: './text-note.component.html',
+    styleUrls: ['./text-note.component.scss']
 })
 export class TextNoteComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

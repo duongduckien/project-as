@@ -22,13 +22,17 @@ import { HelperService } from './services/helper/helper.service';
 // Shared
 import { SharedModule } from './shared/shared.module';
 import { AsideComponent } from './components/aside/aside.component';
+
+// Components
 import { HomeComponent } from './pages/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         AsideComponent,
-        HomeComponent
+        HomeComponent,
+        HeaderComponent
     ],
     imports: [
         BrowserModule,

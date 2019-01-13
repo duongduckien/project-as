@@ -1,0 +1,80 @@
+.header {
+    padding: 25px 0 15px;
+    .logo {
+      margin-left: 20px;
+      h1 {
+        margin: 0;
+        a {
+          display: block;
+        }
+        img {
+          width: 100px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        width: 150px;
+      }
+    }
+    .user {
+      color: #505962;
+      margin-right: 20px;
+      cursor: pointer;
+      .user-detail {
+        color: #657a8d;
+        img {
+          display: inline-block;
+        }
+        img, span, i {
+          vertical-align: middle;
+          user-select: none;
+        }
+        span {
+          text-transform: uppercase;
+          font-size: 13px;
+          font-weight: bold;
+          i {
+            margin-left: 5px;
+            font-size: 24px;
+          }
+        }
+      }
+      .user-action {
+        position: absolute;
+        width: 100px;
+        top: 40px;
+        right: 0;
+        background: #fff;
+        ul {
+          margin: 0;
+          li {
+            padding: 10px;
+            text-align: right;
+            i {
+              margin-left: 10px;
+              font-size: 16px;
+            }
+            &:hover {
+              color: #fff;
+              background: #3496ff;
+            }
+          }
+        }
+      }
+    }
+    .wrap-language{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+      margin-right: 50px;
+      .flag-icon{
+        cursor: pointer;
+      }
+    }
+    .wrap-content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
